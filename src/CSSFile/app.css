@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+
+.intro-container {
+    font-family: 'Edu VIC WA NT Beginner', 'cursive';
+}
+.intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.intro-image {
+    border-radius: 50%;
+}
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro-left-name {
+    font-size: 5em;
+    margin: 0;
+}
+.intro-left-title {
+    margin: 0;
+    font-size: 3em;
+}
+.about-heading {
+    text-align: center;
+    font-size: 2em;
+}
+.about-paragraph {
+    text-align: center;
+    margin: 10px 300px;
+    font-size: 1.5em;
+}
+.footer-contact {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(170, 169, 169);
+    padding: 0;
+    font-size: 20px;
+}
+.footer-p {
+    padding-bottom: 2px;
+}
+.footer-p2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+.insta-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.insta-link {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+}
+.insta-link:hover {
+    color: rgb(176, 26, 154);
+}
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .intro-left {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .about-paragraph {
+        text-align: center;
+        margin: 10px;
+    }
+}

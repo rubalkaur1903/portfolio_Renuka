@@ -1,0 +1,14 @@
+body {
+    /* background-image: url("https://media.istockphoto.com/photos/downtown-building-simulation-city-3d-rendering-picture-id1282488660?k=20&m=1282488660&s=612x612&w=0&h=cEpxadNHsq0c2dUOcvpqekPrjs9iFcr6A6__Vi-ewnM="); */
+    /* background-image: url("https://st2.depositphotos.com/4278403/6314/v/600/depositphotos_63142697-stock-video-close-up-view-of-the.jpg"); */
+    background-image: url("https://jsmsikkim.com/images/11.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media (max-width: 768px) {
+    .body {
+        background-image: url("https://jsmsikkim.com/images/11.png");
+        background-size: 200px 400px;
+    }
+}
